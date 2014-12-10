@@ -1,70 +1,47 @@
 ---
-orocrm.dashboard.my_accounts_activity.title: Recently accessed accounts
-orocrm.dashboard.my_accounts_activity.view_all: View all
-orocrm.account.form.choose_account: Choose an account...
-orocrm.account.form.select_contacts: Select contacts
-orocrm.account.controller.account.saved.message: Account saved
-orocrm.account.entity_label: Account
-orocrm.account.entity_plural_label: Accounts
-orocrm.account.entity_description: Represent account
-orocrm.account.id.label: Id
-orocrm.account.name.label: Account name
-orocrm.account.created_at.label: Created
-orocrm.account.updated_at.label: Updated
-orocrm.account.owner.label: Owner
-orocrm.account.shipping_address.label: Shipping Address
-orocrm.account.billing_address.label: Billing Address
-orocrm.account.contacts.label: Contacts
-orocrm.account.extend_website.label: Website
-orocrm.account.extend_ticker_symbol.label: Ticker Symbol
-orocrm.account.extend_rating.label: Rating
-orocrm.account.extend_phone.label: Phone
-orocrm.account.extend_ownership.label: Ownership
-orocrm.account.extend_fax.label: Fax
-orocrm.account.extend_employees.label: Employees
-orocrm.account.extend_email.label: Email
-orocrm.account.extend_description.label: Description
-New: New
-Cancel: Cancel
-General: General
-Basic Information: Basic Information
-Addresses: Addresses
-Additional Information: Additional Information
-Add: Add
-orocrm.contact.entity_label: orocrm.contact.entity_label
-General Information: General Information
-orocrm.call.entity_plural_label: orocrm.call.entity_plural_label
-Select: Select
-oro.tag.entity_plural_label: oro.tag.entity_plural_label
-%account.name%: '%account.name%'
-%account.name% - orocrm.account.entity_plural_label - Customers: '%account.name% - orocrm.account.entity_plural_label - Customers'
-Create Account: Create Account
-Create Account - orocrm.account.entity_plural_label - Customers: 'Create Account - orocrm.account.entity_plural_label - Customers'
-%account.name% - Edit: '%account.name% - Edit'
-%account.name% - Edit - orocrm.account.entity_plural_label - Customers: '%account.name% - Edit - orocrm.account.entity_plural_label - Customers'
-orocrm.account.entity_plural_label - Customers: 'orocrm.account.entity_plural_label - Customers'
-orocrm.account.widgets.magento_channel: Magento Channel
-orocrm.account.widgets.account_information: Account Information
-orocrm.account.account_actions: Account actions
-orocrm.account.sections.general: General
-orocrm.account.sections.activity: Activity
-orocrm.account.sections.sales: Sales
-orocrm.account.phone.label: Phone
-orocrm.account.email.label: Email
-orocrm.account.contact.name: Contact name
-orocrm.account.contact.email: Contact email
-orocrm.account.contact.phone: Contact phone
-oro.ui.create_entity: oro.ui.create_entity
-orocrm.contact.widgets.account_contacts: orocrm.contact.widgets.account_contacts
-orocrm.dashboard.my_accounts_activity.description: This widget displays the list of recently accessed accounts
-orocrm.account.menu.customers_tab.label: Customers
-orocrm.account.menu.account_list.description: List of accounts
-orocrm.account.menu.shortcut_new_account.label: Create new account
-orocrm.account.menu.shortcut_new_account.description: Create new account instance
-orocrm.account.menu.shortcut_list_accounts.label: Show accounts list
-orocrm.account.menu.shortcut_list_accounts.description: List of accounts
-orocrm.account.default_contact.label: Default Contact
-orocrm.account.assigned.label: Assigned
-orocrm.account.lifetime_value.label: Lifetime sales value
-orocrm.account.organization.label: Organization
-Additional: Additional
+Addresses: Адреса
+Basic Information: Основная Информация
+orocrm:
+  dashboard:
+    my_accounts_activity:
+      title: Недавно доступ к счетам
+      view_all: Просмотреть все
+      description: Этот виджет отображает список недавно используемых счетов
+  account:
+    menu:
+      customers_tab.label: Сайта
+      account_list.description: Список счетов
+      shortcut_new_account.label: Создать новую учетную запись
+      shortcut_new_account.description: Создать новую учетную запись экземпляра
+      shortcut_list_accounts.label: Посмотреть список аккаунтов
+      shortcut_list_accounts.description: Список счетов
+    widgets:
+      magento_channel: Magento Канал
+      account_information: Информация О Счете
+    account_actions: Счет действия
+    sections:
+      general: Общие
+    form:
+      choose_account: Выбрать учетную запись...
+      select_contacts: Выберите контакты
+    controller:
+      account.saved.message: Счета сохранены
+    entity_label: Счета
+    entity_plural_label: Счета
+    entity_description: Представлять счета
+    id.label: Id
+    name.label: Имя учетной записи
+    owner.label: Владелец
+    contacts.label: Контакты
+    default_contact.label: Контакта По Умолчанию
+    phone.label: Телефон
+    email.label: Отправить по электронной почте
+    assigned.label: Назначен
+    extend_description.label: Описание
+    lifetime_value.label: Жизни продажной стоимости
+    contact:
+      name: '"Имя контакта"'
+      email: Контактный адрес электронной почты
+      phone: Контактный телефон
+    organization:
+      label: Организация
